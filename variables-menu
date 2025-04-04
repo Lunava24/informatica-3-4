@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(){
+    char snack1[] = "Takis";
+    float price1 = 14.24;
+    int stock1 = 17;
+
+    char snack2[] = "Chips";
+    float price2 = 17.50;
+    int stock2 = 20;
+
+    char snack3[] = "Choco roles ";
+    float price3 = 16.36;
+    int stock3 = 2;
+
+    printf("Welcome to the Snack Shop");
+    printf("---------------------------");
+    printf(1. %s - $%f - %d , snack1, price1, stock1)
+}
