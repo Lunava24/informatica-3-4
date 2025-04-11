@@ -27,6 +27,6 @@ int main(){
     if (number1 == 1) {
         printf("Its sunday");
     }
-    else if 
+    else if (number2 == 2) {}
     return 0;
 }
