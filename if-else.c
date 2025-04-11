@@ -27,6 +27,23 @@ int main(){
     if (number1 == 1) {
         printf("Its sunday");
     }
-    else if (number2 == 2) {}
+    else if (number1 == 2) {
+        printf("Its Monday");
+    }
+    else if (number1 == 3) {
+        printf("Its Tuesday");
+    }
+    else if (number1 == 4) {
+        printf("Its Wednesday");
+    }
+    else if (number1 == 5) {
+        printf("Its Thursday");
+    }
+    else if (number1 == 6) {
+        printf("Its Friday"); 
+    }
+    else if (number1 == 7) {
+        printf("Its Saturday");
+    }
     return 0;
 }
