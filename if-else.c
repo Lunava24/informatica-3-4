@@ -24,6 +24,9 @@ int main(){
     int number1;
     printf("enter 1 to 7 number");
     scanf("%d", &number1);
-    if (number1 == )
+    if (number1 == 1) {
+        printf("Its sunday");
+    }
+    else if 
     return 0;
 }
