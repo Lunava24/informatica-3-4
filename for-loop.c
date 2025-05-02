@@ -22,3 +22,8 @@ int main() {
   }
   printf("%d\n", sum);
 }
+
+// Exercise 2
+int n;
+printf("enter a positive number:");
+scanf("%d", &n);
