@@ -21,9 +21,17 @@ int main() {
     sum = sum + i;
   }
   printf("%d\n", sum);
-}
 
 // Exercise 2
-int n;
+int l;
 printf("enter a positive number:");
-scanf("%d", &n);
+scanf("%d", &l);
+
+int e;
+int factorial = 1;
+for (e = 1; e < l + 1; ++e){
+  factorial = factorial * e;
+}
+printf("%d", factorial); 
+}
+
