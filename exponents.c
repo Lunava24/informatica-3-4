@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <math.h>
 
-int main() {
-    int num, exponent;
+int main(void) {
+    int num, exponent, result;
 
     printf("Enter the base number: ");
     scanf("%d", &num);
@@ -9,10 +10,11 @@ int main() {
     printf("Enter the exponent: ");
     scanf("%d", &exponent);
 
-    int base_num = num;
+    //int base_num = num;  
+    //while (exponent != 1) { num = num * base_num;
+     //   --exponent; }
 
-    while (exponent != 1) { num = num * base_num;
-        --exponent;
-    }
-    printf("%d\n", num);
+    result = pow(num,exponent);
+
+    printf("%d\n", result);
 }
