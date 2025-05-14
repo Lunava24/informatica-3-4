@@ -3,16 +3,21 @@
 #include <time.h>
 
 int main() {
-    int probality = %50, head = 1, tails = 2;
-    srand(time(NULL));
-
-    printf("Enter the probality");
-    scanf("%d", &probality);
+    int flip;
 
     printf("Enter the head");
-    scanf("%d", &head);
+    scanf("Enter the head");
 
     printf("Enter the tails");
-    scanf("%d", &tails);
+    scanf("Enter the tails");
+
+    srand(time(NULL));
+
+     printf("guess the flip: "); scanf("%d", &flip);
+    for (; flip > 0; -- flip) {
+        int diceRoll = (rand() % 2) + 1; // Guess between head or tails
+        printf("You rolled a: %d\n", diceRoll); }
+
+    return 0;
 
 }
